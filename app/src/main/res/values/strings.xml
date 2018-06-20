@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bowling</string>
+    <string name="welcome_to_ar_game">Welcome to AR Game!</string>
+    <string name="bowling">Bowling</string>
+    <string name="tennis">tennis</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="6dp"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="18sp"
+      android:textColor="@color/colorPrimaryDark"
+      android:layout_marginBottom="20dp"
+      android:text="@string/welcome_to_ar_game"/>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="40dp"
+      android:orientation="horizontal">
+
+
+
+    <ImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_gravity="center"
+      android:background="@drawable/bowling"/>
+
+    <Button
+      android:id="@+id/button_bowling"
+      android:layout_width="140dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/bowling"
+      android:layout_marginStart="40dp"
+      android:textColor="@color/colorBlack"
+      android:textSize="18sp"
+      android:gravity="center"
+      android:background="@drawable/button_background"
+      android:enabled="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="40dp"
+      android:orientation="horizontal">
+
+
+
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:layout_gravity="center"
+          android:background="@drawable/tennis"/>
+
+        <Button
+          android:id="@+id/button_tennis"
+          android:layout_width="140dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/tennis"
+          android:layout_marginStart="40dp"
+          android:textColor="@color/colorBlack"
+          android:textSize="18sp"
+          android:gravity="center"
+          android:background="@drawable/button_backgroun2"
+          android:enabled="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
